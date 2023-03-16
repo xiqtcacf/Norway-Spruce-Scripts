@@ -36,4 +36,3 @@ cut -f1 fixed_difference_${batch}.glauga.txt | sort | uniq -c > fixed_difference
 sed 's/      //g' fixed_difference_${batch}.glauga.scaffolds -i
 cat header2.txt fixed_difference_${batch}.glauga.scaffolds > tt
 mv tt fixed_difference_${batch}.glauga.scaffolds
-
