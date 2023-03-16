@@ -23,7 +23,6 @@ quantile(Nes_0fold$V12,probs=c(.025,.975))
 quantile(omega_0fold$V6,probs=c(.025,.975))
 quantile(omega_0fold$V8,probs=c(.025,.975))
 
-
 Nes_intron<- read.table('100bootstraps.intron.4fold.NeS.txt',header = F)
 omega_intron <- read.table('100bootstraps.intron.4fold.alpha_omega.out',header = F)
 quantile(Nes_intron$V3,probs=c(.025,.975))
@@ -112,4 +111,3 @@ arrows(x0=3,y0=0.164,y1=0.510,angle=90,code=3,length=0.05,col="black",lwd = 1.5)
 arrows(x0=4,y0=0.456,y1=0.965,angle=90,code=3,length=0.05,col="black",lwd = 1.5)
 arrows(x0=5,y0=0.033,y1=0.345,angle=90,code=3,length=0.05,col="black",lwd = 1.5)
 dev.off()
-
