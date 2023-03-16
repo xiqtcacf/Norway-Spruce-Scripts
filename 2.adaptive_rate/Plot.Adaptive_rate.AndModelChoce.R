@@ -42,7 +42,6 @@ cor.test(recom_4fold$Ka.Ks, recom_4fold$recombination,
          method="spearman")
 cor.test(recom_4fold$Ka., recom_4fold$recombination, 
          method="spearman")
-
 cor.test(gene_4fold$Ka.Ks, gene_4fold$gene_density, 
          method="spearman")
 cor.test(gene_4fold$Ka., gene_4fold$gene_density, 
@@ -102,7 +101,6 @@ legend("bottomright",
        cex=1.5,
        bty = "n")
 #      title="Curvilinear", text.font=1)
-
 
 ####gene density
 m.exp <- nls(Ka.Ks ~ I(a * exp(b * gene_density)), data = gene_4fold, start = list(a = 1, b = 0), trace = T)
