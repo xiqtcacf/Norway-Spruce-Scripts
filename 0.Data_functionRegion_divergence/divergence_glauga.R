@@ -13,7 +13,3 @@ functions <- merge(abies_function, glauga_function, by= c("Chr","Pos")) ### merg
 fixed_difference_function <- anti_join(glauga_function, functions, by = c("Chr", "Pos")) ###anti_join to identify the records from the original table that did not exist in our updated table.
 
 write.table(fixed_difference_function, "fixed_difference_function.glauga.txt", sep="\t", quote=FALSE, col.names = FALSE, row.names = FALSE)
-
-
-
-
