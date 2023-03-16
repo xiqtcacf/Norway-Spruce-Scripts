@@ -43,6 +43,3 @@ bgzip $output/sweden_norway.noPab002Pab034.$batch.vcf && tabix -p vcf $output/sw
 ### get sfs for each function_region
 $angsd -vcf-PL $output/sweden_norway.noPab002Pab034.$batch.vcf.gz -out $output/sweden_norway.noPab002Pab034.$batch -doSaf 1 -doMajorMinor 1 -anc $fasta -nInd 25 -minQ 30
 $realSFS $output/sweden_norway.noPab002Pab034.$batch.saf.idx -cores 1 -fold 1 > $output/sweden_norway.noPab002Pab034.$batch.saf.idx.sfs
-
-
-
