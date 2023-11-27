@@ -1,5 +1,5 @@
 # Scripts for 
-## Wang, X., & Ingvarsson, P. K. (2020). Quantifying adaptive evolution and the effects of natural selection across the Norway spruce genome. bioRxiv, 2020-06. https://www.biorxiv.org/content/10.1101/2020.06.25.170902v1.abstract
+## Wang X, Ingvarsson PK. Quantifying adaptive evolution and the effects of natural selection across the Norway spruce genome. Molecular Ecology. 2023 Oct;32(19):5288-304.
 ### 0.get functional regions of data and divergence
 Get-AngsdSFS.sweden-norwayPop.functionRegion.sh - Script to get 'Sweden-Norway' population and each functional region, e.g. 0fold; 4fold; introns; conserved; promoters and intergenic regions.
 
